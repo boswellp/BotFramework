@@ -8,7 +8,7 @@ Then go to <a href="http://www.botframework.com">Microsoft Bot Framework</a> and
 
 Enter these two keys on the Heroku Settings page Reveal Config Vars.
 
-For node on Heroku, one needs to set the port up as done in app.js and explained on 
+For node on Heroku, one needs to set the port up as done in app.js and explained on StackOverflow.
 
 The Heroku Domain on the config page point is the end point that goes on the Microsoft Bot Framework configuration (something like https://your_heroku_personal_app_name.herokuapp.com/api/messages) with messages/app (for app.js) tagged on to give https://your_heroku_personal_app_name.herokuapp.com/api/messages.
 
