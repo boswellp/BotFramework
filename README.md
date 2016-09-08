@@ -13,3 +13,9 @@ For node on Heroku, one needs to set the port up as done in app.js and explained
 The Heroku Domain on the config page point is the end point that goes on the Microsoft Bot Framework configuration (something like https://your_heroku_personal_app_name.herokuapp.com/api/messages) with messages/app (for app.js) tagged on to give https://your_heroku_personal_app_name.herokuapp.com/api/messages.
 
 "Test connetion to your bot" at MBF gives the response "Accepted" if the Heroku account is recognised (but it does not mean that the bot is working).
+
+Web and Skype integration at MBF are straightforward. We leave for now a working version of Hello World at http://fidicbotmbf.herokuapp.com/
+
+Maybe not for long is we need the accounts for development. It works fine on Skype (FIDICbot). I suppose KiK integration will be OK.
+
+We use Smooch for multichannel integration for FIDICbot integration on SMS, Telegram, Messenger and LINE. WeChat is proving complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat intergtaion for WeChat users outside China is difficult). 
