@@ -14,10 +14,10 @@ The Heroku Domain on the config page point is the end point that goes on the Mic
 
 "Test connetion to your bot" at MBF gives the response "Accepted" if the Heroku account is recognised (but it does not mean that the bot is working properly, notably message replies).
 
-Web and Skype integration at MBF are straightforward. We leave for now a working version of Hello World at http://fidicbotmbf.herokuapp.com/
+Web and Skype integration at MBF are straightforward. We no longer have a working version of Hello World. However, the MBF version of the FIDICbot is at http://fidicbotmbf.herokuapp.com/ and on Skype @FIDICbot.
 
-Maybe not for long as we need the accounts for development. It works fine on Skype (FIDICbot). I suppose KiK integration will be OK although KiK does not seem to be accepting the creation of new bots these days.
+We suppose KiK integration will be OK although KiK does not seem to be accepting the creation of new bots these days.
 
-We use Smooch for multichannel integration for FIDICbot integration on SMS, Telegram, Messenger and LINE. WeChat is proving complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat integration for WeChat users outside China is difficult).
+We use Smooch for multichannel integration for the main FIDICbot integration on SMS, Telegram, Messenger and LINE. WeChat is proving complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat integration for WeChat users outside China is difficult).
 
 The MBF version of FIDICbot for Skype has a read.me that serves as the online <a href="https://github.com/boswellp/MBF-FIDICbot/blob/master/README.md">help page</a>. This help page references the FIDIC.tips help page for the main (Smooch-hosted) version of FIDICbot (for SMS, Messenger, Telegram, LINE and <a href="http://fidic.pw">fidic.pw</a>) at <a href="http://fidic.tips/fidicbot">FIDIC.tips/FIDICbot</a>.
