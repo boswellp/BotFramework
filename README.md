@@ -1,6 +1,6 @@
 #Microsoft Bot Framework Hello World
 
-These files get you started with a Microsoft Bot Framework "Hello World" chatbot on Heroku node.
+These files in principle (setup June 2016) get you started with a Microsoft Bot Framework "Hello World" chatbot on Heroku node.
 
 The app is based on the MBF document <a href="https://docs.botframework.com/en-us/node/builder/overview/">version</a> and an earlier SarahSays <a href="https://blogs.msdn.microsoft.com/sarahsays/2016/06/01/microsoft-bot-framework-part-1/">version</a>.
 
@@ -16,10 +16,14 @@ The Heroku Domain on the config page point is the end point that goes on the Mic
 
 "Test connetion to your bot" at MBF gives the response "Accepted" if the Heroku account is recognised (but it does not mean that the bot is working properly, notably message replies).
 
-Web and Skype integration at MBF are straightforward. We no longer have a working version of Hello World. However, the MBF version of the FIDICbot is at http://fidicbotmbf.herokuapp.com/ and on Skype @FIDICbot.
+Web and Skype integration at MBF are straightforward. We no longer have a working version of Hello World. The MBF version of the FIDICbot used to be at fidicbotmbf.heroku.com but we no longer maintain the Heroku deployment.
 
-We suppose KiK integration will be OK although KiK does not seem to be accepting the creation of new bots these days.
+We supposed in June 2016 that KiK integration would be OK although KiK does not seem to be accepting the creation of new bots these days.
 
-We use Smooch for multichannel integration for the main FIDICbot integration on SMS, Telegram, Messenger and LINE. WeChat is proving complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat integration for WeChat users outside China is difficult).
+We use Smooch for multichannel integration for the main FIDICbot integration on SMS, Telegram, Messenger, Viber and LINE. WeChat  proved complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat integration for WeChat users outside China is difficult). In the end we managed to get FIDICbot working in a sandboxed account.
 
-The MBF version of FIDICbot for Skype has a read.me that serves as the online <a href="https://github.com/boswellp/MBF-FIDICbot/blob/master/README.md">help page</a>. This help page references the FIDIC.tips help page for the main (Smooch-hosted) version of FIDICbot (for SMS, Messenger, Telegram, LINE and <a href="http://fidic.pw">fidic.pw</a>) at <a href="http://fidic.tips/fidicbot">FIDIC.tips/FIDICbot</a>.
+The MBF version of FIDICbot for Skype has a read.me that serves as the online <a href="https://github.com/boswellp/MBF-FIDICbot/blob/master/README.md">help page</a>. This help page references the FIDIC.tips help page for the main (Smooch-hosted) version of FIDICbot (for SMS, Messenger, Telegram, Viber, and LINE and <a href="http://fidic.pw">fidic.pw</a>) at <a href="http://fidic.tips/fidicbot">FIDIC.tips/FIDICbot</a>.
+
+The current MBF version of FIDICbot is deployed with Azure.
+
+We recently set up a Twitter DM version that does not us Smooch as the channel integrator. This will be described separately.
