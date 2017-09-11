@@ -22,8 +22,8 @@ We supposed in June 2016 that KiK integration would be OK although KiK does not 
 
 We use Smooch for multichannel integration for the main FIDICbot integration on SMS, Telegram, Messenger, Viber and LINE. WeChat  proved complicated (getting an Official Account is OK; getting the OA authenicated so that one can at least have WeChat integration for WeChat users outside China is difficult). In the end we managed to get FIDICbot working in a sandboxed account.
 
-The MBF version of FIDICbot for Skype has a read.me that serves as the online <a href="https://github.com/boswellp/MBF-FIDICbot/blob/master/README.md">help page</a>. This help page references the FIDIC.tips help page for the main (Smooch-hosted) version of FIDICbot (for SMS, Messenger, Telegram, Viber, and LINE and <a href="http://fidic.pw">fidic.pw</a>) at <a href="http://fidic.tips/fidicbot">FIDIC.tips/FIDICbot</a>.
+The MBF version of FIDICbot for Skype has a read.me that serves as the online <a href="https://github.com/boswellp/MBF-FIDICbot/blob/master/README.md">help page</a>. This help page references the FIDIC.tips help page for the main (Smooch-integrated) version of FIDICbot (for SMS, Messenger, Telegram, Viber, and LINE and <a href="http://fidic.pw">fidic.pw</a>) at <a href="http://fidic.tips/fidicbot">FIDIC.tips/FIDICbot</a>.
 
-The current MBF version of FIDICbot is deployed with Azure.
+The current MBF version of FIDICbot is deployed on Azure and the Github repository is <a href="https://github.com/boswellp/MBF">MBF</a>.
 
-We recently set up a Twitter DM version that does not us Smooch as the channel integrator. This will be described separately.
+We recently set up a Twitter DM version (see <a href="https://twitter.com/messages/compose?recipient_id=759383192247861248">@FIDICbot</a>) that does not us Smooch as the channel integrator. This will be described separately (see <a href="http://www.fidic.tips/chatbot">FIDIC.tips</a> for a summary.
