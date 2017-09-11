@@ -26,4 +26,4 @@ The MBF version of FIDICbot for Skype has a read.me that serves as the online <a
 
 The current MBF version of FIDICbot is deployed on Azure and the Github repository is <a href="https://github.com/boswellp/MBF">MBF</a>.
 
-We recently set up a Twitter DM version (see <a href="https://twitter.com/messages/compose?recipient_id=759383192247861248">@FIDICbot</a>) that does not us Smooch as the channel integrator. This will be described separately (see <a href="http://www.fidic.tips/chatbot">FIDIC.tips</a> for a summary.
+We recently set up a Twitter DM version (see <a href="https://twitter.com/messages/compose?recipient_id=759383192247861248">@FIDICbot</a>) that does not us Smooch as the channel integrator. This will be described separately (see <a href="http://www.fidic.tips/chatbot">FIDIC.tips</a> for a summary).
