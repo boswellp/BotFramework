@@ -1,4 +1,6 @@
-#Microsoft Bot Framework Hello World
+Microsoft Bot Framework Hello World
+
+January 2020: The MBF webiste and Azure portal have been ugraded significantly since this was written, but broadly speaking, things remain the same.
 
 These files in principle (setup June 2016) get you started with a Microsoft Bot Framework "Hello World" chatbot on Heroku node.
 
