@@ -4,7 +4,7 @@ January 2020: The MBF webiste and Azure portal have been ugraded significantly s
 
 These files in principle (setup June 2016) get you started with a Microsoft Bot Framework "Hello World" chatbot on Heroku node.
 
-The app is based on the MBF document <a href="https://docs.botframework.com/en-us/node/builder/overview/">version</a> and an earlier SarahSays <a href="https://blogs.msdn.microsoft.com/sarahsays/2016/06/01/microsoft-bot-framework-part-1/">version</a>.
+The app is based on the MBF document <a href="https://docs.botframework.com/en-us/node/builder/overview/">version</a> and an earlier SarahSays version that is <a href="https://blogs.msdn.microsoft.com/sarahsays/2016/">archived</a>.
 
 One needs a Microsoft Account (I've had a Hotmail account since ages), then an <a href="https://portal.azure.com/">Azure Portal</a> account.
 
